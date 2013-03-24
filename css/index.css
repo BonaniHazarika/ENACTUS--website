@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.4em; 
+	background-color: #FFF;
+}	
+
+a, a:link, a:visited { 
+	color: #dc600d; 
+	font-weight: normal; 
+	text-decoration: none; 
+}
+
+a:hover { text-decoration: underline; }
+
+a.more { 
+	display: inline-block; 
+	width: 80px; 
+	height: 22px; 
+	line-height: 22px; 
+	text-align: center; 
+	background: url(../images/templatemo_button.png) no-repeat; 
+}
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#dc600d; }
+cite a, cite a:link, cite a:visited  { font-size: 12px; text-decoration: none; font-style: normal }
+cite span { font-weight: 400; color: #dc600d; }
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
+h1 { font-size: 48px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 30px; margin: 0 0 25px; padding: 5px 0 }
+h3 { font-size: 24px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0; }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.divider { margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #000 }
+
+.float_l { float: left }
+.float_r { float: right }
+
+#templatemo_wrapper {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#header {
+	position:absolute;
+	top: 0px;
+	left: 130px;
+	width: 940px;
+	/*background: url(../images/templatemo_header.png) bottom center no-repeat;*/
+}
+
+#header #site_title { 
+	float: left; 
+}
+
+#header #site_title h1 { 
+	margin: 0; 
+	padding: 10px 0 0 0; 
+}
+
+#header #site_title h1 a { 
+	color: #acacac; 
+}
+
+#header .fb-like{
+	position:absolute;
+	right: 20px;
+	top: 30px;
+	height: 40px;
+	width: 400px;
+}
+
+#header #google-plus{
+	position: absolute;
+	top: 70px;
+	right: 320px;
+	height: 20px;
+	width: 100px;
+}
+
+#menu{
+	position:absolute;
+	top: 150px;
+	left: 130px;
+	width: 940px;
+	height: 70px;
+	background: url(../images/menu.jpg) no-repeat;
+}
+
+#main_wrapper {
+	width: 940px;
+	position:absolute;
+	top: 250px;
+	left:130px;
+}
+
+
+#slider_wrapper {
+	width: 940px;
+	padding: 0; 
+	margin: 0 auto;
+	background: url(../images/templatemo_slider.png) no-repeat bottom;
+}
+
+.slider {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	width: 940px;
+	height: 440px;
+	overflow: hidden;
+	margin: 0;
+}
+
+.slider li{
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 179px;
+	height: 440px;
+
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+}
+
+.slider.horizontal li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 5px; /*Set to same as spacing option. */	
+	float: left;
+}
+
+.slider.vertical  li{
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-bottom: 5px; /*Set to same as spacing option. */	
+}
+
+#slide_1 { }
+#slide_2 { }
+#slide_3 { }
+#slide_4 { }
+#slide_5 { }
+.slider.horizontal #slide_5 {
+	margin-right: none; /* cancel margin on last kiwck (if you set a margin above) */
+}
+.slider.vertical #slide_5 {
+	margin-bottom: none; /* cancel margin on last kiwck (if you set a margin above) */
+}
